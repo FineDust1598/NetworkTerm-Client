@@ -1,0 +1,241 @@
+﻿  termclientcpp.cpp
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(149,2): error C2664: 'INT_PTR DialogBoxParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(149,2):
+      대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(5070,1):
+      'DialogBoxParamW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(149,2):
+      인수 목록 '(HINSTANCE, LPWSTR, int, overloaded-function, long)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(161,18): error C2556: 'DLGPROC DlgProc(HWND,UINT,WPARAM,LPARAM)': 오버로드된 함수가 'BOOL DlgProc(HWND,UINT,WPARAM,LPARAM)'과(와) 반환 형식만 다릅니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(110,15):
+      'DlgProc' 선언을 참조하십시오.
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(161,18): error C2373: 'DlgProc': 재정의. 형식 한정자가 다릅니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(110,15):
+      'DlgProc' 선언을 참조하십시오.
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(207,3): error C2664: 'BOOL SetDlgItemTextW(HWND,int,LPCWSTR)': 인수 3을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(207,44):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(5168,1):
+      'SetDlgItemTextW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(207,3):
+      인수 목록 '(HWND, int, LPCSTR)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(208,3): error C2664: 'BOOL SetDlgItemTextW(HWND,int,LPCWSTR)': 인수 3을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(208,49):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(5168,1):
+      'SetDlgItemTextW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(208,3):
+      인수 목록 '(HWND, int, LPCSTR)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(249,36): error C2440: '=': 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(249,36):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(253,16): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(253,16):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(4437,1):
+      'CreateWindowExW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(253,16):
+      인수 목록 '(long, LPCSTR, LPCSTR, long, int, int, int, int, HWND, HMENU, HINSTANCE, int)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(261,43): warning C4244: '=': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(268,4): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': 인수 2을(를) 'char [30]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(268,4):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8950,1):
+      'GetWindowTextW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(268,4):
+      인수 목록 '(HWND, char [30], int)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(270,5): error C2664: 'UINT GetDlgItemTextW(HWND,int,LPWSTR,int)': 인수 3을(를) 'LPSTR'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(270,45):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(5191,1):
+      'GetDlgItemTextW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(270,5):
+      인수 목록 '(HWND, int, LPSTR, size_t)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(272,5): error C2664: 'UINT GetDlgItemTextW(HWND,int,LPWSTR,int)': 인수 3을(를) 'LPSTR'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(272,59):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(5191,1):
+      'GetDlgItemTextW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(272,5):
+      인수 목록 '(HWND, int, LPSTR, int)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(277,6): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(277,31):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(277,6):
+      인수 목록 '(HWND, LPCSTR, LPCSTR, long)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(282,6): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': 인수 2을(를) 'const char [15]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(282,6):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8929,1):
+      'SetWindowTextW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(282,6):
+      인수 목록 '(HWND, const char [15])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(290,5): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(290,30):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(290,5):
+      인수 목록 '(int, LPCSTR, LPCSTR, long)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(303,4): error C2664: 'UINT GetDlgItemTextW(HWND,int,LPWSTR,int)': 인수 3을(를) 'LPSTR'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(303,50):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(5191,1):
+      'GetDlgItemTextW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(303,4):
+      인수 목록 '(HWND, int, LPSTR, unsigned __int64)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(310,8): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(310,33):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(310,8):
+      인수 목록 '(HWND, LPCSTR, LPCSTR, long)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(347,34): warning C4244: '=': 'LRESULT'에서 'BOOL'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(367,17): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(367,17):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(4437,1):
+      'CreateWindowExW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(367,17):
+      인수 목록 '(long, LPCSTR, LPCSTR, long, int, int, int, int, HWND, HMENU, HINSTANCE, int)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(380,8): error C2664: 'BOOL ChooseColorW(LPCHOOSECOLORW)': 인수 1을(를) 'LPCHOOSECOLORA'에서 'LPCHOOSECOLORW'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(380,36):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\commdlg.h(537,29):
+      'ChooseColorW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(380,8):
+      인수 목록 '(LPCHOOSECOLORA)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(387,14): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(425,24): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(449,30): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [13]'에서 'char *'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(449,39):
+      문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(125,6):
+      'err_quit' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(449,30):
+      인수 목록 '(const char [13])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(447,30): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(458,30): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [13]'에서 'char *'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(458,39):
+      문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(125,6):
+      'err_quit' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(458,30):
+      인수 목록 '(const char [13])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(456,30): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(469,32): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [9]'에서 'char *'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(469,41):
+      문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(125,6):
+      'err_quit' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(469,32):
+      인수 목록 '(const char [9])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(478,30): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [10]'에서 'char *'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(478,39):
+      문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(125,6):
+      'err_quit' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(478,30):
+      인수 목록 '(const char [10])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(480,2): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(480,27):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(480,2):
+      인수 목록 '(int, LPCSTR, LPCSTR, long)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(489,3): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(489,28):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(489,3):
+      인수 목록 '(int, LPCSTR, LPCSTR, long)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(512,2): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(512,27):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(512,2):
+      인수 목록 '(int, LPCSTR, LPCSTR, long)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(475,31): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(560,54): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(565,26): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(643,26): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1354,2): error C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1389,14): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1401,30): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [9]'에서 'char *'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1401,39):
+      문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(125,6):
+      'err_quit' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1401,30):
+      인수 목록 '(const char [9])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1408,30): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [13]'에서 'char *'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1408,39):
+      문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(125,6):
+      'err_quit' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1408,30):
+      인수 목록 '(const char [13])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1417,30): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [7]'에서 'char *'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1417,39):
+      문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(125,6):
+      'err_quit' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1417,30):
+      인수 목록 '(const char [7])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1436,4): error C2664: 'void DisplayText(char *,...)': 인수 1을(를) 'const char [13]'에서 'char *'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1436,16):
+      문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1349,6):
+      'DisplayText' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1436,4):
+      인수 목록 '(const char [13], char [20], const char *, char [232])'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1461,2): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 3을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1461,46):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1461,2):
+      인수 목록 '(int, LPCTSTR, LPCSTR, long)'을(를) 일치시키는 동안
+  
+N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1480,2): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': 인수 2을(를) 'const char [16]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1480,2):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8929,1):
+      'SetWindowTextW' 선언을 참조하십시오.
+      N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1480,2):
+      인수 목록 '(HWND, const char [16])'을(를) 일치시키는 동안
+  
