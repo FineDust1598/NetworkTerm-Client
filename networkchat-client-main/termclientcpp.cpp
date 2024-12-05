@@ -107,7 +107,7 @@ void disableSendButtonAfterJoiningGroup();
 
 
 // 대화상자 프로시저
-BOOL CALLBACK DlgProc(HWND, UINT, WPARAM, LPARAM);
+INT_PTR CALLBACK DlgProc(HWND, UINT, WPARAM, LPARAM);
 // 소켓 통신 스레드 함수
 DWORD WINAPI ClientMain(LPVOID arg);
 DWORD WINAPI ReadThread(LPVOID arg);
@@ -158,7 +158,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 }
 
 // 대화상자 프로시저
-BOOL CALLBACK DlgProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+INT_PTR CALLBACK DlgProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam) {
 	static HWND hEditMsg;
 	static HWND hColorButton;
 	static HWND hShapeFill;
