@@ -529,8 +529,13 @@ DWORD WINAPI ReadThread(LPVOID arg) {
 	DRAWLINE_MSG draw_msg;
 	while (1) {
 		retval = recvn(g_sock, (char*)&comm_msg, sizeof(COMM_MSG), 0);
-		if (retval == 0 || retval == SOCKET_ERROR) {
-			break;
+        if (retval == SOCKET_ERROR || retval == 0) break;
+
+        if (comm_msg.type == CHATTING) {
+            retval = recvn(g_sock, (char*)&chat_msg, comm_msg.size, 0);
+            if (retval == SOCKET_ERROR || retval == 0) break;
+
+            //DisplayText("[RECV] %s: %s\n", chat_msg.nickname, chat_msg.buf);
 		}
 	}
 	return 0;
@@ -557,8 +562,8 @@ DWORD WINAPI WriteThread(LPVOID arg) {
 
 		// 메세지 설정
 
-		msg_size.size = strlen(g_chatmsg.buf) + 1 + IDSIZE + sizeof(int);
 		msg_size.type = g_chatmsg.type;
+        msg_size.size = sizeof(CHAT_MSG); // CHAT_MSG 크기 포함 (닉네임 + 메시지)
 		msg_size.ip_addr_str = 0;
 
 		// 선택된 멀티캐스트 그룹 인덱스
@@ -578,14 +583,16 @@ DWORD WINAPI WriteThread(LPVOID arg) {
 			// 데이터 크기 전송
 			retval = send(g_sock, (char*)&msg_size, sizeof(COMM_MSG), 0);
 			if (retval == SOCKET_ERROR) {
+				err_quit("send() - COMM_MSG 전송 실패");
 				break;
 			}
 
-			// 데이터 보내기
-			retval = send(g_sock, (char*)&g_chatmsg, msg_size.size, 0);
-			if (retval == SOCKET_ERROR) {
-				break;
-			}
+			// CHAT_MSG 구조체 전송
+            retval = send(g_sock, (char*)&g_chatmsg, sizeof(CHAT_MSG), 0);
+            if (retval == SOCKET_ERROR) {
+                err_quit("send() - CHAT_MSG 전송 실패");
+                break;
+            }
 		}
 
 		// '메시지 전송' 버튼 활성화

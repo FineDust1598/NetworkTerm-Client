@@ -1,13 +1,13 @@
 ﻿  termclientcpp.cpp
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(261,43): warning C4244: '=': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(347,34): warning C4244: '=': 'LRESULT'에서 'BOOL'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(387,14): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(425,24): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(528,11): warning C4101: 'chat_msg' :참조되지 않은 지역 변수입니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(529,15): warning C4101: 'draw_msg' :참조되지 않은 지역 변수입니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(560,54): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(565,26): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(643,26): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-N:\Github\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1389,14): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(261,43): warning C4244: '=': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(347,34): warning C4244: '=': 'LRESULT'에서 'BOOL'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(387,14): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(425,24): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(528,11): warning C4101: 'chat_msg' :참조되지 않은 지역 변수입니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(529,15): warning C4101: 'draw_msg' :참조되지 않은 지역 변수입니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(560,54): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(565,26): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(643,26): warning C4244: '초기화 중': 'LRESULT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\termclientcpp.cpp(1389,14): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-N:\Github\NetworkTerm-Client\networkchat-client-main\x64\Debug\termclient.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+C:\Users\kt912\NetworkTerm-Client\networkchat-client-main\x64\Debug\termclient.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
